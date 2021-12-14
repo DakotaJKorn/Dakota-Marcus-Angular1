@@ -1,0 +1,16 @@
+<table>
+    <thead>
+    <tr>
+        <th>Crypto Name</th>
+        <th>Abbreviation</th>
+        <th>Value</th>
+    </tr>
+    </thead>
+    <tbody *ngFor="let crypto of cryptoArray">
+    <tr>
+        <td>{{crypto.name}}</td>
+        <td>{{crypto.symbol}}</td>
+        <td>{{crypto.value}}</td>
+    </tr>
+    </tbody>
+</table>

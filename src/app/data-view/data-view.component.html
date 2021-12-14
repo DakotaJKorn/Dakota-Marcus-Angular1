@@ -1,0 +1,17 @@
+
+<div class="table-wrapper">
+<table id="displayTable" class="fl-table">
+        <thead>
+        <tr>
+            <th class="tableHead">Class Name</th>
+            <th class="tableHead">Skill Name</th>
+        </tr>
+        </thead>
+        <tbody *ngFor="let skill of skillArray; let i = index">
+        <tr>
+            <td>{{classArray[i].name}}</td>
+            <td>{{skill.name}}</td>
+        </tr>
+        </tbody>
+</table>
+<div>
