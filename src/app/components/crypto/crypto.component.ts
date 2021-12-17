@@ -1,17 +1,19 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from '../../api.service';
 
 @Component({
   selector: 'app-crypto',
   templateUrl: './crypto.component.html',
   styleUrls: ['./crypto.component.css']
 })
+
 export class CryptoComponent implements OnInit {
   
+  cryptoList: any;
   cryptoArray = new Array();
-  private dbPath = '/tutorials';
 
 
-  constructor() {
+  constructor(private apiService: ApiService) {
 
     for(let i = 0; i < 10; i++)
     {
@@ -26,7 +28,11 @@ export class CryptoComponent implements OnInit {
    }
 
   ngOnInit(): void {
-
+    this.apiService.getCrypto().subscribe((data)=>{
+      this.cryptoList = data;
+      console.log(data);
+      //this.cryptoArray = this.cryptoList.results;
+    });
 
   }
 

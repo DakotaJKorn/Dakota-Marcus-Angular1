@@ -1,0 +1,66 @@
+{ "Top Crypocurrencies": [
+        {
+             "No": "1",
+             "Name": "Bitcoin",
+             "Symbol": "BTC",
+             "Value": "46,7601.11"
+        },
+        {
+            "No":"2",
+            "Name:": "Ethereum",
+            "Symbol": "ETH",
+            "Value": "3,776.61"
+        },
+        {
+            "No":"3",
+            "Name:": "Binance Coin",
+            "Symbol": "BNB",
+            "Value": "517.28"
+        },
+        {
+            "No":"4",
+            "Name:": "Tether",
+            "Symbol": "USDT",
+            "Value": "1.00"
+        },
+        {
+            "No":"5",
+            "Name:": "Solana",
+            "Symbol": "SOL",
+            "Value": "157.04"
+        },
+        {
+            "No":"6",
+            "Name:": "USD Coin",
+            "Symbol": "USDC",
+            "Value": "1.00"
+        },
+        {
+            "No":"7",
+            "Name:": "Cardano",
+            "Symbol": "ADA",
+            "Value": "1.23"
+        },
+        {
+            "No":"8",
+            "Name:": "XRP",
+            "Symbol": "XRP",
+            "Value": "0.7927"
+        },
+        {
+            "No":"9",
+            "Name:": "Polkadot",
+            "Symbol": "DOT",
+            "Value": "25.57"
+        },
+        {
+            "No":"10",
+            "Name:": "Dogecoin",
+            "Symbol": "DOGE",
+            "Value": "0.19"
+        }
+    ],
+   "source": "https://coinmarketcap.com/",
+   "Time": "Dec 2021"
+ 
+}

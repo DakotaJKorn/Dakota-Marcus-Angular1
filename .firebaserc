@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "angular-example-dakota-marcus"
-  }
+    "default": "angular-example-dakota-marcus",
+    "a": "angular-example-dakota-marcus"
+  },
+  "targets": {}
 }
